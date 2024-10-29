@@ -49,7 +49,9 @@ set background=dark
 
 " Open a NERDTree automatically when vim starts up
 autocmd vimenter * NERDTree
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 " Change the vim-airline theme
 let g:airline_theme='powerlineish'
 let g:airline#extensions#tabline#enabled = 1
+
