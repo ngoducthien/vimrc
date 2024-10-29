@@ -14,9 +14,9 @@ fi
 echo "Copying vimrc to ~/.vimrc..."
 cp -f vimrc ~/.vimrc
 
-# Remove old ~/.vim directory and copy new vim folder to ~/.vim
+# Copy new vim folder to ~/.vim
 echo "Updating vim folder in ~/.vim..."
-rm -rf ~/.vim
+# rm -rf ~/.vim
 cp -rf vim ~/.vim
 
 # Notify user of completion
