@@ -26,11 +26,11 @@ This guide explains how to sync your Vim settings between your local machine and
 
 ## Syncing Local Vim Settings to GitHub
 
-    1. **Copy Local Settings to GitHub**:
+1. **Copy Local Settings to GitHub**:
 
     Copy the `~/.vimrc` and `~/.vim` directories to your GitHub vimrc folder. 
 
-    2. **Commit Changes**:
+2. **Commit Changes**:
 
     Navigate to your GitHub repository in the terminal and run the following commands to stage, commit, and push the changes:
 
